@@ -6,6 +6,7 @@ GL4ES - OpenGL for GLES Hardware
 ![gl4es build status](https://api.travis-ci.org/ptitSeb/gl4es.png "gl4es build status")
 
 how to use
+
 git clone https://github.com/ptitSeb/gl4es.git
 
 cd gl4es

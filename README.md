@@ -5,13 +5,21 @@ GL4ES - OpenGL for GLES Hardware
 
 ![gl4es build status](https://api.travis-ci.org/ptitSeb/gl4es.png "gl4es build status")
 
+how to use
 git clone https://github.com/ptitSeb/gl4es.git
+
 cd gl4es
+
 mkdir build
+
 cd build
+
 cmake .. -DODROID=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+
 make -j8 
+
 sudo make install
+
 export LD_LIBRARY_PATH=/usr/lib/gl4es/
 
 

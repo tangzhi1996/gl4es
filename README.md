@@ -5,6 +5,16 @@ GL4ES - OpenGL for GLES Hardware
 
 ![gl4es build status](https://api.travis-ci.org/ptitSeb/gl4es.png "gl4es build status")
 
+git clone https://github.com/ptitSeb/gl4es.git
+cd gl4es
+mkdir build
+cd build
+cmake .. -DODROID=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+make -j8 
+sudo make install
+export LD_LIBRARY_PATH=/usr/lib/gl4es/
+
+
 This is a library provide OpenGL 2.x functionality for GLES2.0 accelerated Hardware (and of course also support OpenGL 1.5 function, sometimes better than when using GLES 1.1 backend)
 There is also support for GLES 1.1 Hardware, emulating OpenGL 1.5, and some OpenGL 2.x+ extensions.
 
